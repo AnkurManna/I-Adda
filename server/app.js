@@ -1,5 +1,9 @@
 //server for handling socket connections
-const io = require('socket.io')(8000,"0.0.0.0",{cors:{origin:"*"}})
+let port = process.env.PORT
+if (port == null || port == "") {
+    port = 8000;
+  }
+const io = require('socket.io')(port,"0.0.0.0",{cors:{origin:"*"}})
 
 const user = {};
 var people = [];
