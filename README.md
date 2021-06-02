@@ -1,5 +1,5 @@
 # I-Adda
-This is a chatting application ,having features of <br>
+This is a chatting application having features of <br>
 a)**loggin in and chatting with other people** <br>
 b)**viewing online and offline participants** <br>
 c)**sending image ,text, GIFs etc** <br>
